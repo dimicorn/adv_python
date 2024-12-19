@@ -8,7 +8,7 @@ setup(
     name='stem',
     version='0.0.1',
     cmdclass=cmdclass,
-    packages=find_packages(include=['stem']),
+    packages=find_packages(include=['stem', 'stem/*']),
     command_options={
         'build_sphinx': {
             'project': ('setup.py', name),
@@ -19,4 +19,10 @@ setup(
             'foo = stem.cli_main:stem_cli_main',
         ],
     }
+)
+setup(
+    name='tests',
+    version='0.0.1',
+    cmdclass=cmdclass,
+    packages=find_packages(include=['tests']),
 )

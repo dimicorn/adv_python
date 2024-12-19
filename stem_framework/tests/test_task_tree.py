@@ -2,7 +2,7 @@ from unittest import TestCase
 
 
 from stem.task_tree import TaskTree
-from .example_task import int_range, int_scale
+from tests.example_task import int_range, int_scale
 
 
 class TaskTreeTest(TestCase):

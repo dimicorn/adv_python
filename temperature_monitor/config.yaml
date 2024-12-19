@@ -1,9 +1,0 @@
-sqlite:
-  path: "test.sqlite"
-  echo: true
-controller:
-  period: 1000
-oscilloscope:
-  time_delta: 15
-fake_device: true
-logging_level: "DEBUG"

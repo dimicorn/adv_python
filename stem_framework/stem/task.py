@@ -49,8 +49,6 @@ class DataTask(Task[T]):
         pass
 
     def transform(self, meta: Meta, /, **kwargs: Any) -> T:
-        # print(**kwargs)
-        # print(meta)
         return self.data(meta)
 
 
