@@ -2,9 +2,9 @@ from abc import abstractmethod, ABC, ABCMeta
 from types import ModuleType
 from typing import Optional, Any, TypeVar, Union
 
-from .core import Named
-from .meta import Meta
-from .task import Task
+from stem.core import Named
+from stem.meta import Meta
+from stem.task import Task
 
 T = TypeVar("T")
 
